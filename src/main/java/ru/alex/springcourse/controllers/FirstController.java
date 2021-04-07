@@ -26,11 +26,11 @@ public class FirstController {
     }
 
     @GetMapping("/calculator")
-    public String helloPage(@RequestParam(value = "a", required = false) int varA,
+    public String calculator(@RequestParam(value = "a", required = false) int varA,
                             @RequestParam(value = "b", required = false) int varB,
                             @RequestParam(value = "action", required = false) String action,
                             Model modelCalc) {
-        float result = 0;
+        double result = 0;
         String message = "";
         switch (action){
             case "multiplication":
@@ -49,10 +49,12 @@ public class FirstController {
                 if ( varA == 0 ) {
                     message = "Zero division - ERROR!";
                 } else {
-                    result = varA / varB;
+                    result = varA / (double) varB;
                     message = "Division successful: " + result;
                 }
                 break;
+            default:
+                message = "Invalid operation! ";
             }
 
         modelCalc.addAttribute("message", message);
