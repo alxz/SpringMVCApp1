@@ -24,6 +24,40 @@ public class FirstController {
     public String goodbyePage() {
         return "first/goodbye";
     }
+
+    @GetMapping("/calculator")
+    public String helloPage(@RequestParam(value = "a", required = false) int varA,
+                            @RequestParam(value = "b", required = false) int varB,
+                            @RequestParam(value = "action", required = false) String action,
+                            Model modelCalc) {
+        float result = 0;
+        String message = "";
+        switch (action){
+            case "multiplication":
+                result = varA * varB;
+                message = "Multiplication successful: " + result;
+                break;
+            case "addition":
+                result = varA + varB;
+                message = "Addition successful: " + result;
+                break;
+            case "subtraction":
+                result = varA - varB;
+                message = "Subtraction successful: " + result;
+                break;
+            case "division":
+                if ( varA == 0 ) {
+                    message = "Zero division - ERROR!";
+                } else {
+                    result = varA / varB;
+                    message = "Division successful: " + result;
+                }
+                break;
+            }
+
+        modelCalc.addAttribute("message", message);
+        return "first/calculator";
+        }
 }
 
 /*
