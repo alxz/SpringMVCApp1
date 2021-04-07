@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello</title>
+</head>
+<body>
+<p>Hello Page</p>
+<a href="/first/goodbye">Say Goodbye!</a> or <a href="/exit">Exit</a>
+<p> With parameters:</p>
+<a href="/first/hello?name=John&surname=Doe">Request with params: John Doe</a>
+<p th:text="${message}" ></p>
+
+</body>
+</html>
