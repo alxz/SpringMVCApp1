@@ -6,7 +6,12 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e69f0fc2-caff-4c28-a962-227e9aa88a8c" name="Default Changelist" comment="" />
+    <list default="true" id="e69f0fc2-caff-4c28-a962-227e9aa88a8c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/alex/springcourse/config/MySpringMVCDisplatcherServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/alex/springcourse/config/SpringConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +31,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -207,7 +215,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -230,6 +238,7 @@
       <workItem from="1617743449204" duration="1681000" />
       <workItem from="1617745156786" duration="1151000" />
       <workItem from="1617749109025" duration="299000" />
+      <workItem from="1617754832722" duration="1453000" />
     </task>
     <servers />
   </component>
@@ -253,6 +262,14 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="98" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.777@0.23.1280.777" timestamp="1617749348577" />
+    <state x="447" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1617755323857">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="447" y="128" key="#com.intellij.ide.util.MemberChooser/0.23.1280.777@0.23.1280.777" timestamp="1617755323857" />
+    <state x="372" y="165" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1617755899085">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="372" y="165" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1280.777@0.23.1280.777" timestamp="1617755899085" />
     <state width="1036" height="196" key="GridCell.Tab.0.bottom" timestamp="1617749407830">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
